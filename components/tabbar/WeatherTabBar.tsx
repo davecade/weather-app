@@ -8,7 +8,7 @@ const WeatherTabBar = () => {
 	const { width, height } = useAppDimensions();
 	return (
 		<View
-			style={{ flex: 1, backgroundColor: "red", top: height - tabBarHeight }}
+			style={{ flex: 1, top: height - tabBarHeight }}
 		>
 			<ArcComponent height={height} width={width} />
 		</View>
