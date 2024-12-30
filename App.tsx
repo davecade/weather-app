@@ -2,12 +2,13 @@ import { StyleSheet } from "react-native";
 import { StatusBar } from "expo-status-bar";
 import HomeBackground from "./components/HomeBackground";
 import React from "react";
+import WeatherTabBar from "./components/tabbar/WeatherTabBar";
 
 export default function App() {
   return (
     <>
       <HomeBackground />
-      {/* <WeatherTabBar /> */}
+      <WeatherTabBar />
       <StatusBar style="light" />
     </>
   );
